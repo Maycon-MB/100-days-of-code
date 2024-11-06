@@ -37,7 +37,7 @@ if choice1 == "left":
     
     # Segunda escolha: lago
     choice2 = input('There\'s an eerie island in the middle of the lake. '
-                    'Do you "wait" for a boat 🛶 or "swim" across like a fearless hero? \n').lower()
+                     'Do you "wait" for a boat 🛶 or "swim" across like a fearless hero? \n').lower()
     
     if choice2 == "wait":
         print("You patiently wait, and a boat mysteriously appears out of nowhere! 🛥️ It takes you to the island.")
