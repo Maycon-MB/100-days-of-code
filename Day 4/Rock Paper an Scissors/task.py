@@ -54,14 +54,14 @@ print(f"Computer chose: {options[computer_choice]}")
 if user_option == 0 and computer_choice == options[0]:
     print("Draw!")
 elif user_option == 0 and computer_choice == options[1]:
-    print("You lose!")
+    print("You lose!") 
 elif user_option == 0 and computer_choice == options[2]:
     print("You win!")
 elif user_option == 1 and computer_choice == options[0]:
     print("You win!")
 elif user_option == 1 and computer_choice == options[1]:
     print("Draw!")
-elif user_option == 1 and computer_choice == options[2]:
+elif user_option == 1 and computer_choice == options[2]: 
     print("You lose!")
 elif user_option == 2 and computer_choice == options[0]:
     print("You lose!")
