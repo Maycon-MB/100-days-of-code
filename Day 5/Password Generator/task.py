@@ -13,36 +13,34 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 # Easy level
 # password = ""
 
-# for option in range(0, nr_letters):
+# for char in range(0, nr_letters):
 #     password += random.choice(letters)
 
-# for option in range(0, nr_symbols):
+# for char in range(0, nr_symbols):
 #     password += random.choice(symbols)
 
-# for option in range(0, nr_numbers):
+# for char in range(0, nr_numbers):
 #     password += random.choice(numbers)
 
-# print(f"Your password is: {password}")
+# print(f"Your password is {password}")
 
 # Hard level
-hard_password = []
+password_list = []
 
-for option in range(0, nr_letters):
-    hard_password.append(random.choice(letters))
+for char in range(0, nr_letters):
+    password_list.append(random.choice(letters))
 
-for option in range(0, nr_symbols):
-    hard_password.append(random.choice(symbols))
+for char in range(0, nr_symbols):
+    password_list.append(random.choice(symbols))
 
-for option in range(0, nr_numbers):
-    hard_password.append(random.choice(numbers))
+for char in range(0, nr_numbers):
+    password_list.append(random.choice(numbers))
 
-random.shuffle(hard_password)
+random.shuffle(password_list)
 
 final_password = ""
 
-for character in hard_password:
-    final_password += character
+for char in password_list:
+    final_password += char
 
-print(f"Your password is: {final_password}")
-
-
+print(f"Your password is: {final_password}") 
