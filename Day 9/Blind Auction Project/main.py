@@ -18,7 +18,7 @@ all_bids = {}
 while still_playing is True:
     name = input("What's your name?\n")
     price = int(input("What's you bid? \n"))
-
+ 
     all_bids[name] = price
 
     should_continue = input("There are others user to bid? Type 'yes' or 'no'. \n").lower()
